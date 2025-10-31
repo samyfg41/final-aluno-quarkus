@@ -14,7 +14,7 @@ public class ConexaoFactory {
 
         // Retornar conexão
         return DriverManager.getConnection("jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl",
-              "usuario", "senha");
+              "RM554794", "fiap25");
     }
 
 }
